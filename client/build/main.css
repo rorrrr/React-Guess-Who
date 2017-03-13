@@ -1,0 +1,42 @@
+body {
+  font-family: Helvetica;
+  background:  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),
+  url(http://wallsdesk.com/wp-content/uploads/2016/09/Blastoise-Screenshots.jpg);
+  background-size: 100%;
+}
+
+#blastoisesDiv{
+  float: left;
+  padding: 10px;
+  background-color: ivory;
+  border: 3px solid black;
+  box-sizing: border-box;
+  text-align: center;
+  margin-right: 7px;
+  width: 150px;
+}
+
+#characterBox {
+    margin-left: 50px;
+    max-height: 40%;
+    max-width: 90%;
+}
+
+#characterBox img {
+  height: 112px;
+  width: 112px;
+}
+
+h1 {
+  margin-left: 50px;
+}
+
+#guess-input {
+  margin-top: 40px; 
+  margin-left: 100px;
+  color: white;
+  width: 300px;
+}
